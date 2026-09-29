@@ -1,6 +1,4 @@
-#!/usr/bin/env bash
 # Medication Database Search System
-# Adapted from the author's CCPS 393 assignment for a portable demonstration.
 # Usage: ./search [path-to-fixed-width-data]
 set -u
 medslist="${1:-$(dirname "$0")/sample-data.txt}"
