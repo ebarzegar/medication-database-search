@@ -47,8 +47,5 @@ Enter a code or partial code, then choose `G` for generic name or `D` for dose. 
 
 ## Implementation
 
-The program reads records without altering the input file, extracts the medication-code substring, and collects all matches in a Bash array. It then validates the requested output type and extracts the corresponding fixed-width field. The original coursework solution used a university-specific data path; this portfolio adaptation accepts an optional path and defaults to the synthetic sample file.
+The program reads records without altering the input file, extracts the medication-code substring, and collects all matches in a Bash array. It then validates the requested output type and extracts the corresponding fixed-width field. 
 
-## Project origin and limitations
-
-Adapted from an individual CCPS 393 UNIX programming assignment at Toronto Metropolitan University. This portfolio version includes portability and input-handling improvements. The data and output are demonstrations only; do not use this program for prescribing, dispensing, or clinical decisions.
