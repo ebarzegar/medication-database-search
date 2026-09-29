@@ -1,0 +1,10 @@
+$ ./search
+Enter Medication Code? (to exit enter ZZZ) 6314
+See Generic Name (G/g) or Dose (D/d)? G
+A6314    : ifosfamide   
+Enter Medication Code? (to exit enter ZZZ) 23
+See Generic Name (G/g) or Dose (D/d)? d
+12345    : 200 ug        
+9230     : 6000 pg       
+Enter Medication Code? (to exit enter ZZZ) ZZZ
+Goodbye.
